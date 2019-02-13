@@ -1,71 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
+  <head>
+    <title>Colin McPike</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a type="button" href="index.html" class="btn btn-outline-info">About</a>
-            </li>
-            <li class="nav-item">
-              <a type="button" class="btn btn-outline-info" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a type="button" class="btn btn-outline-info" href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar">
+
+      </div>
+    </div>
+    <div class="page">
+    <nav id="colorlib-main-nav" role="navigation">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+      <div class="js-fullheight colorlib-table">
+        <div class="img" style="background-image: url(images/author-2.jpg);"></div>
+        <div class="colorlib-table-cell js-fullheight">
+          <div class="row no-gutters">
+            <div class="col-md-12 text-center">
+              <h1 class="mb-4"><a href="index.html" class="logo">Colin McPike</a></h1>
+              <ul>
+                <li class="active"><a href="index.html"><span><small>01</small>Home</span></a></li>
+                <li><a href="about.html"><span><small>02</small>Resume</span></a></li>
+                <li><a href="services.html"><span><small>03</small>Skills</span></a></li>
+                <li><a href="portfolio.html"><span><small>04</small>Portfolio</span></a></li>
+                <!-- <li><a href="blog.html"><span><small>05</small>Blog</span></a></li> -->
+                <li><a href="contact.html"><span><small>05</small>Contact</span></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    
+    <div id="colorlib-page">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="colorlib-navbar-brand">
+                <a class="colorlib-logo" href="index.html"><span class="logo-img" style="background-image: url(images/person_1.jpg);"></span>Colin McPike</a>
+              </div>
+              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+    
+      <section class="home-slider owl-carousel js-fullheight">
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">Hello! I'm</a></p>
+                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Colin McPike</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Full Stack Web Developer</h1>
+                <p><a href="#" class="scroll">From the Pacific Northwest</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END slider -->
+
+      <section class="ftco-section about-section">
+        <div class="container">
+          <div class="row d-flex" data-scrollax-parent="true">
+            <div class="col-md-4 author-img" style="background-image: url(images/author-1.jpg);" data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6 wrap ftco-animate">
+              <div class="about-desc">
+                <h1 class="bold-text">About</h1>
+                <div class="p-5">
+                  <h2 class="mb-5">Hi! I'm Colin</h2>
+                  <p>After managing multiple teams and owning several businesses I decided to pursue my passion with computers by attending the University of Washington's Full Stack Bootcamp.</p>
+                  <p><a href="#">Checkout my resume</a></p>
+                  <ul class="ftco-footer-social list-unstyled mt-4">
+                    <li><a href="https://www.linkedin.com/in/colin-mcpike-8a601b66/"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="https://github.com/therealmcp"><span class="icon-github"></span></a></li>
+                  </ul>
+                  <h5>Contact me here!</h5>
+                  <p>Email: <a href="#">cp.mcpike@gmail.com</a></p>
+                  <p>Phone: <a href="#">360.790.4850</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>What I do</span>
+              <h2>Skills</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-layers"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Web Development</h3>
+                  <h3 class="heading">Mobile App Design</h3>
+                  <h3 class="heading">Responsive Design</h3>
+                </div>
+              </div>      
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-gears"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">MongoDB</h3>
+                  <h3 class="heading">Express JS</h3>
+                  <h3 class="heading">React JS</h3>
+                </div>
+              </div>      
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-code"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">HTML/CSS</h3>
+                  <h3 class="heading">Node JS</h3>
+                  <h3 class="heading">My SQL</h3>
+                </div>
+              </div>    
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Portfolio</span>
+              <h2>Checkout a few of my works</h2>
+            </div>
+          </div>
+          <div class="row no-gutters">
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="#" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Mobile</h4>
+              <h2 class="heading">GRIP - A mobile application for personal trainers and their clients</h2>
+              <p>Most personal trainers still use pen and paper to track the progress of their clients. With GRIP they can use any iOS or Android device to log weight, exercises, and many other factors important to progress. The trainer and client can then see the data returned in charts and graphs to easily see trends.</p>
+              <p><a href="https://github.com/therealmcp/gripApp">View Code</a></p>
+              <p><a href="https://expo.io/@cmcpike/client">View Project</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="#" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-2.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Full Stack</h4>
+              <h2 class="heading">Let's Play - A social network for gamers</h2>
+              <p>This full stack application allows gamers to find other people to game with based on social preferences, skill level, objectives, specific games, etc. Are you a competitive gamer looking to hone your skills or someone looking to casually learn a new game with chill people? Let's Play has you covered!</p>
+              <p><a href="https://github.com/therealmcp/Project2">View Code</a></p>
+              <p><a href="https://polar-falls-14511.herokuapp.com/">View Project</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="#" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-3.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">API's</h4>
+              <h2 class="heading"><a href="portfolio-single.html">In The Mood - What are you in the mood for?</a></h2>
+              <p>Using Google and Yelp! APIs In The Mood helps you find a meal and movie based on your location and mood.</p>
+              <p><a href="https://therealmcp.github.io/InTheMood/">View Project</a></p>
+              <p><a href="https://github.com/therealmcp/InTheMood">View Code</a></p>
+            </div>
+          </div>
+          <!-- <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-4.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Application</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Even the all-powerful Pointing has no control</a></h2>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+              <p><a href="#">View Project</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-5.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Animation</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Even the all-powerful Pointing has no control</a></h2>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+              <p><a href="#">View Project</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-6.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Branding</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Even the all-powerful Pointing has no control</a></h2>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+              <p><a href="#">View Project</a></p>
+            </div> -->
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- <section class="ftco-section ftco-counter" id="section-counter">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Portfolio</span>
+              <h2>I love to share my achievements</h2>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-start">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Clients</span>
+                  <strong class="number" data-number="420">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Project done</span>
+                  <strong class="number" data-number="890">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-end">
+            <div class="col-md-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Cups of coffee</span>
+                  <strong class="number" data-number="1000">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
       
-  <div class="container">
+      <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-5 text-center">
+              <div class="ftco-footer-widget mb-5">
+                <ul class="ftco-footer-social list-unstyled">
+                  <li><a href="https://www.linkedin.com/in/colin-mcpike-8a601b66/"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="https://github.com/therealmcp"><span class="icon-github"></span></a></li>
+                </ul>
+              </div>
+              <div class="ftco-footer-widget">
+                <h2 class="mb-3">Contact me</h2>
+                <p class="h3 email"><a href="#">cp.mcpike@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
 
-    <div class="row">
-      <div class="col-md-3">
-        <h1>About Colin</h1>
-      </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-3">
-          <img src="Images\profile_pic.jpg" alt="McP" height="200" width="200" id="bio-image">
+              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true" style="color: red;"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+          </div>
         </div>
-      <div class="col-md-9" style="padding-right: 10%;">
-        <p>Colin is a web developer born and raised in the Great Pacific Northwest before moving south where the desert sun forged him like steel into the man before you. He is a passionate individual and meets challenges with the ferocity of Bruce Banner seeing a loved one in danger.</p>
-        <p>After managing a climbing gym I worked as a personal assistant for Hollywood executives until I had saved enough money to open a small business of my own. A passion project with a friend, Car Friend is a small auto shop that puts honesty and the community ahead of making a quick buck. In 2017 I moved back to the beautiful Pacific Northwest to start another business with my brother-in-law which lead to finding my passion at the keyboard.</p>
-        <p>In August of 2018 I finally found myself in a program that kept me motivated to consistently hone my skills with various programming languages.</p>
-        <ul><h5>Proficient In: </h5>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Node</li>
-          <li>Express</li>
-        </ul>
+      </footer>
+
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
       </div>
+
     </div>
 
-  </div>
 
-
-  <!-- <footer class="page-footer font-small blue" style="background-color: gray; position: absolute; bottom: 0;">
-    <div class="footer-copyright text-center py-3">© 2018 Copyright</div>
-  </footer> -->
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
 </html>
